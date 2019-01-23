@@ -13,6 +13,10 @@ print(products)#
 products[0][0]#將大清單的第一個數字取出再取出小清單的第一個數字
 print(products[0][1])
 
-for p in products
+for p in products:
 	print(p)#將小清單一個一個印出來
 	print(p[0], '價格是:', p[1])
+
+with open('product.csv', 'w') as f:
+	for i in products:
+		f.write(p[0] + ',' + p[1] + '\n')
