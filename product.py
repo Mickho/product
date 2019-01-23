@@ -15,3 +15,4 @@ print(products[0][1])
 
 for p in products
 	print(p)#將小清單一個一個印出來
+	print(p[0], '價格是:', p[1])
