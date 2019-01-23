@@ -12,3 +12,6 @@ while True:
 print(products)#
 products[0][0]#將大清單的第一個數字取出再取出小清單的第一個數字
 print(products[0][1])
+
+for p in products
+	print(p)#將小清單一個一個印出來
